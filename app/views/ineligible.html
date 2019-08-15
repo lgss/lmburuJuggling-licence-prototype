@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Question page
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/juggling-balls">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Sorry you are not eligible
+      </h1>
+
+      <p>Because you cannot juggle 2 balls or more, we are not able to offer you a licence.</p>
+
+      <p>Please contact the <a href="/url/of/onward/page">National Juggling Association</a> for advise</p>
+
+    </div>
+  </div>
+
+{% endblock %}
